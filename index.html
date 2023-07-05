@@ -3,18 +3,45 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>Index</title>
+		<script src="app.js" charset="utf-8" defer></script>
+			
+		<title>Tailwind Css Experiments</title>
 		<link href="/dist/output.css" rel="stylesheet">
 	</head>
-	<body class="bg-slate-500">
+	<body class="bg-slate-500" >
 		<div class="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-lg flex
 			items-center space-x-4">
 			<div class="shrink-0">
-				<img class="h-12 w-12 shadow-lg rounded-lg" src="https://picsum.photos/536/354" alt="">
+				<img class="h-12 w-12 shadow-lg rounded-md" src="https://picsum.photos/536/354" alt="">
 			</div>
 			<div>
 				<div class="text-xl font-medium text-black"> ChitChat	</div>	
 				<p class="text-slate-500">You have a new message!</p>
+				<button class="btn-primary">Test</button>
+				<button class="bg-sky-500 text-white font-bold shadow-lg h-10
+					w-16 rounded-lg hover:bg-sky-700 ">Test</button>
+			</div>
+		</div>
+		<br/>
+		<div class="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-lg
+			items-center space-x-4" >
+			<div class="text-xl font-medium text-black text-center">
+				<p class="text-slate-500 p-3 w-15">test</p>
+				<p class="text-white p-3 bg-slate-500 hover:bg-slate-300 rounded-xl">test</p>
+				<p class="text-slate-500 p-3 bg-red-500 hover:bg-red-300 rounded-xl">test</p>
+				<p class="text-slate-500 p-3 bg-green-500 hover:bg-green-300 rounded-xl">test</p>
+			</div>
+			<br/>
+			<div class="selection:bg-fuchsia-300 selection:text-fuchsia-900">
+				<p class="first-line:uppercase first-line:tracking-widest
+				first-letter:text-7xl first-letter:font-bold first-letter:text-slate-500
+				first-letter:mr-3 first-letter:float-left
+				">
+				Well, let me tell you something, funny boy. Y'know that little stamp, the one
+				that says "New York Public Library"? Well that may not mean anything to you,
+				but that means a lot to me. One whole hell of a lot.
+				</p>
+				<p class=""> test</p>
 			</div>
 		</div>
 	</body>
